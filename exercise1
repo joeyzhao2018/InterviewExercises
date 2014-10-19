@@ -1,0 +1,37 @@
+
+public class FrequentChar {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char c= FrequentCharfunc("testss");
+		System.out.print(c);
+	}
+	
+	
+	public static char FrequentCharfunc(String s){
+		int maxIndex=0;
+		int curCount=0;
+		int maxCount=1;
+		int cursor=0;
+		int[] reoccur=new int[s.length()];
+//		int i;
+//		for (i=0;i<=s.length()-1;i++){
+//			firstOrNot[i]=;
+//		}
+		
+		while ((s.length()-cursor)>maxCount){
+			if (reoccur[cursor]==0){
+				int i;
+				for(i=0;i<s.length()-1-cursor;i++){
+					
+				}
+			}
+		}
+		return (char) firstOrNot[2];
+		}
+		
+
+}

@@ -14,7 +14,7 @@ public class Reader implements Runnable{
 	public Reader(State st){this.state=st;}
 		 
 	public void run() {		 
-		String csvFile = "./BAF.csv";
+		String csvFile = "./data.csv";
 		BufferedReader br = null;
 		String line = "";
 		String cvsSplitBy = ",";
